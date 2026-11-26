@@ -16,7 +16,6 @@ public class Cliente {
         System.out.print("> ");
         String palabra2 = sc.nextLine();
 
-
         System.out.print("> ");
         String palabra3 = sc.nextLine();
 
@@ -43,7 +42,7 @@ public class Cliente {
                     System.out.println("Sin respuesta: se perdió el paquete o el servidor no está");
                 }
             }
-            if(recibido == false ){
+            if(recibido == false){
                 System.out.println("Servidor desconectado");
             }
         }

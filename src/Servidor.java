@@ -1,8 +1,6 @@
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.nio.charset.StandardCharsets;
-import java.util.ArrayList;
-import java.util.List;
 
 public class Servidor {
     public static void main(String args[]) throws Exception{
